@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "AI Council",
+  "version": "0.3.5",
+  "description": "通过已登录的模型网页自动讨论，追踪争议和共识；不使用模型 API。",
+  "minimum_chrome_version": "120",
+  "permissions": ["sidePanel", "tabs", "alarms", "scripting"],
+  "action": {
+    "default_title": "打开 AI Council"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; connect-src 'self'"
+  },
+  "optional_host_permissions": [
+    "https://chat.deepseek.com/*",
+    "https://www.doubao.com/*",
+    "https://chatgpt.com/*",
+    "https://gemini.google.com/*"
+  ]
+}

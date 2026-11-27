@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-11-27T01:32:21.688Z",
+  "total": {
+    "lines": {
+      "total": 1633,
+      "covered": 1474,
+      "skipped": 0,
+      "pct": 90.26
+    },
+    "statements": {
+      "total": 1780,
+      "covered": 1581,
+      "skipped": 0,
+      "pct": 88.82
+    },
+    "functions": {
+      "total": 375,
+      "covered": 344,
+      "skipped": 0,
+      "pct": 91.73
+    },
+    "branches": {
+      "total": 1625,
+      "covered": 1344,
+      "skipped": 0,
+      "pct": 82.7
+    },
+    "branchesTrue": {
+      "total": 0,
+      "covered": 0,
+      "skipped": 0,
+      "pct": 100
+    }
+  }
+}

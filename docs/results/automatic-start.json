@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "fixtureOnly": true,
+  "realModelAcceptance": false,
+  "platforms": [
+    "chatgpt",
+    "deepseek",
+    "gemini",
+    "doubao"
+  ],
+  "manualChecks": 0,
+  "previousAnswers": 0,
+  "realUserEntry": "CHAT_INPUT_ENTER",
+  "completed": 4,
+  "permissionDialog": "PREGRANTED_TEST_MANIFEST_NOT_VERIFIED",
+  "checkedAt": "2026-11-27T01:28:16.303Z"
+}

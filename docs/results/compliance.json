@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-11-27T02:11:09.784Z",
+  "passed": true,
+  "sourceFiles": 59,
+  "checks": [
+    "MV3 与最小权限",
+    "无默认主机访问；仅四个平台可选网站权限",
+    "隔离世界 DOM 注入仅经过受控端口",
+    "禁止模型 API SDK 与网络调用",
+    "禁止账号与 Cookie 能力",
+    "无显式 any",
+    "产物不含测试回复"
+  ],
+  "failures": [],
+  "livePlatforms": {
+    "deepseek": "DOM_ADAPTER_IMPLEMENTED_LIVE_FLOW_NOT_YET_VERIFIED",
+    "doubao": "DOM_ADAPTER_IMPLEMENTED_LOGIN_REQUIRED_IN_OBSERVED_BROWSER",
+    "chatgpt": "DOM_ADAPTER_IMPLEMENTED_LIVE_FLOW_NOT_YET_VERIFIED",
+    "gemini": "DOM_ADAPTER_IMPLEMENTED_LIVE_FLOW_NOT_YET_VERIFIED",
+    "claude": "NO_DOM_ADAPTER"
+  }
+}

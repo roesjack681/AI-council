@@ -1,0 +1,41 @@
+{
+  "name": "ai-council",
+  "version": "0.3.5",
+  "private": true,
+  "type": "module",
+  "description": "通过模型网页 DOM 自动收发与讨论的本地 Chrome 扩展",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "typecheck": "vue-tsc --noEmit",
+    "build": "npm run typecheck && vite build",
+    "test": "node scripts/test.mjs",
+    "test:coverage": "node scripts/test.mjs --coverage",
+    "test:e2e": "playwright test",
+    "check:compliance": "node scripts/check-compliance.mjs",
+    "verify": "npm run build && npm run test:coverage && npm run check:compliance && npm run test:e2e",
+    "package": "npm run build && node scripts/package.mjs",
+    "format": "prettier --write src tests scripts docs *.json *.ts *.html README.md",
+    "format:check": "prettier --check src tests scripts docs *.json *.ts *.html README.md"
+  },
+  "dependencies": {
+    "dexie": "^4.2.1",
+    "naive-ui": "^2.43.2",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.24",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/chrome": "^0.1.31",
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "@vitest/coverage-v8": "^4.0.14",
+    "fake-indexeddb": "^6.2.5",
+    "fflate": "^0.8.2",
+    "prettier": "3.7.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4",
+    "vitest": "^4.0.14",
+    "vue-tsc": "3.1.5"
+  }
+}

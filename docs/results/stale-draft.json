@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "fixtureOnly": true,
+  "realModelAcceptance": false,
+  "archivedBeforeClear": true,
+  "oldPromptSent": false,
+  "currentQuestion": "小光头在吗",
+  "inactiveOldTaskStayedPaused": true,
+  "archiveRestoredWithoutSending": true,
+  "checkedAt": "2026-11-27T01:33:23.049Z"
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checkedAt": "2026-11-27T01:29:39.419Z",
+  "mode": "CONTROLLED_DOM_FIXTURE_NOT_REAL_MODELS",
+  "sessionProvisioning": "precreated isolated fixture tabs at public tabs.create boundary",
+  "transport": "production BrowserDomAdapter + chrome.scripting.executeScript ISOLATED",
+  "rounds": 2,
+  "receivedReplies": 6,
+  "separateSessionTabs": 2,
+  "realModelAcceptance": false,
+  "startedWithoutDeepSeekReplySample": false,
+  "lostFirstAcknowledgmentAfterRealDomSubmission": false,
+  "restoredOldConversations": false,
+  "sampleTabsClosedAfterInitialization": false,
+  "newConversationDelayMs": 0
+}

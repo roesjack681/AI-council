@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checkedAt": "2026-11-27T01:29:01.095Z",
+  "mode": "CONTROLLED_DOM_FIXTURE_NOT_REAL_MODELS",
+  "questions": 3,
+  "namedDirectVerbatim": true,
+  "naturalReplies": true,
+  "persistedRouting": true,
+  "isolatedBrainContexts": true,
+  "reusedCompletedTabs": true,
+  "realModelAcceptance": false
+}

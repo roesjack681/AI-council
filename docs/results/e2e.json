@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checkedAt": "2026-11-27T01:30:59.145Z",
+  "browser": "159.0.8154.6",
+  "extensionId": "jfbmjdcchaoiabjnogdgpapboemjfmlf",
+  "scenarios": [
+    "实际加载 MV3 产物",
+    "聊天首页 + 设置配置 DeepSeek 与豆包",
+    "允许新问题输入，网页未就绪时由后台暂停并保存原因",
+    "网页未就绪时持久化暂停",
+    "不伪造模型回复",
+    "报告命令生成",
+    "完整浏览器重启恢复",
+    "本地数据删除"
+  ],
+  "liveModelAutomation": "NOT_RUN_ON_PERSONAL_ACCOUNTS; THIS_TEST_VERIFIES_MISSING_PAGE_HANDLING"
+}

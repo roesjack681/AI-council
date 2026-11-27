@@ -1,0 +1,15 @@
+node_modules/
+dist/
+release/
+coverage/
+playwright-report/
+test-results/
+.browser-profile/
+*.log
+.tmp/
+virtual-debug.txt
+.env
+.env.*
+!.env.example
+*.pem
+*.key
